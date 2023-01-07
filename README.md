@@ -1,10 +1,14 @@
 Proyecto Kotlin
 Organización de archivos:
+
+
 La estructura de nuestro proyecto podría ser la siguiente:
 •	Una carpeta de modelos, que contendrá la clase Restaurant que represente a cada restaurante y que utilizaremos para parsear la respuesta de la API.
 •	Una carpeta de presentadores, que contendrá a los presentadores del patrón MVP (Modelo-Vista-Presentador). Tendremos un presentador por cada vista.
 •	Una carpeta de vistas, que contendrá las actividades o fragmentos de Android que representan a cada vista.
 •	Una carpeta de adaptadores, que contendrá los adaptadores que usaremos para mostrar la lista de restaurantes en la primera vista y los detalles de cada restaurante en la segunda vista.
+
+
 └── proyecto
     ├── modelos
     │   └── Restaurant.kt
@@ -18,6 +22,8 @@ La estructura de nuestro proyecto podría ser la siguiente:
     └── adaptadores
         ├── RestaurantDetailsAdapter.kt
         └── RestaurantsAdapter.kt
+	
+
 primero necesitaremos añadir algunas dependencias al archivo build.gradle de nuestra aplicación. Para consumir la API de restaurantes, necesitaremos añadir una dependencia de Retrofit y para consumir la API de Google Maps, necesitaremos añadir una dependencia de la biblioteca de Google Maps para Android. Añadiremos esto en el archivo build.gradle :
 dependencies {
     // Retrofit para consumir la API de restaurantes
