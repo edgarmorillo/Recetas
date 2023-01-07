@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">pruebaKotlinEdgar</string>
+    <string name="activity_restaurant_list_title">Listado de restaurantes</string>
+    <string name="activity_restaurant_detail_title">Detalle de restaurante</string>
+    <string name="error_loading_restaurants">No se pudieron cargar los restaurantes</string>
+    <string name="error_loading_restaurant_detail">No se pudo cargar el detalle del restaurante</string>
+    <string name="search_hint">Busca tu restaurante</string>
+    <string name="searching">Buscando...</string>
+    <string name="search">Buscar</string>
+    <string name="name">Nombre</string>
+    <string name="rating">Calificación</string>
+
+</resources>
